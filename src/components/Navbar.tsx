@@ -37,7 +37,7 @@ const NavbarItem: React.FC<NavbarItemProps> = ({ text, onClick, isActive, scroll
 const Navbar: React.FC<NavbarProps> = ({ scrollRefs }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [activeMenuItem, setActiveMenuItem] = useState('');
-  const menuItems = ["Home", "About Us", "Features", "Our Works", "Pricing", "Resources"];
+  const menuItems = ["Home", "About", "Features", "Pricing", "Testimonial", "Contact"];
 
   const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     if (

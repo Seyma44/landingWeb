@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
-import FrameComponent2 from "./FrameComponent2";
+import AboutSection from "./AboutSection";
 
 const ScrollView: FunctionComponent = () => {
   return (
     <div className="self-stretch flex flex-col items-end justify-start gap-[110px] max-w-full text-left text-29xl text-background-paper font-body-l-medium mq450:gap-[27px] mq800:gap-[55px]">
-      <FrameComponent2
+      <AboutSection
         solutionsTailoredSpecific="Solutions Tailored Specifically to Your Business Needs"
         weProvideCustomizedSoluti="We provide customized solutions for your business needs, ensuring relevance and success."
       />
@@ -16,7 +16,7 @@ const ScrollView: FunctionComponent = () => {
           src="/rectangle-70@2x.png"
         />
       </div>
-      <FrameComponent2
+      <AboutSection
         solutionsTailoredSpecific="Client Satisfaction is Our Main Focus"
         weProvideCustomizedSoluti="Our main goal is your satisfaction, and we work tirelessly to ensure that you are pleased with the results we achieve together."
         propPadding="unset"

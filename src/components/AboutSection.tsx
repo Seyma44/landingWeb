@@ -1,7 +1,7 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
 import { Button } from "@mui/material";
 
-export type FrameComponent2Type = {
+export type AboutSection = {
   solutionsTailoredSpecific?: string;
   weProvideCustomizedSoluti?: string;
 
@@ -9,7 +9,7 @@ export type FrameComponent2Type = {
   propPadding?: CSSProperties["padding"];
 };
 
-const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
+const AboutSection: FunctionComponent<AboutSection> = ({
   solutionsTailoredSpecific,
   weProvideCustomizedSoluti,
   propPadding,
@@ -54,4 +54,4 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   );
 };
 
-export default FrameComponent2;
+export default AboutSection;

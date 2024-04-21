@@ -31,7 +31,7 @@ const CopyButton: FunctionComponent<CopyButtonType> = ({
 
   return (
     <div
-      className="w-full sm:w-full flex flex-col items-center justify-center gap-4 text-left text-13xl text-ghostwhite font-body-l-medium"
+      className="w-full sm:w-full flex flex-col items-center justify-center gap-8 text-left text-13xl text-ghostwhite font-body-l-medium"
       style={copyButtonStyle}
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-8 pl-8">
@@ -44,7 +44,7 @@ const CopyButton: FunctionComponent<CopyButtonType> = ({
           />
         </button>
       </div>
-      <div className="self-stretch flex flex-col items-start justify-center py-0 pr-4 pl-4">
+      <div className="self-stretch flex flex-col items-start justify-center py-0 pr-4 pl-4 md800:pr-8">
         <div className="flex flex-row items-center justify-center py-0 px-4">
           <div
             className="relative tracking-wide leading-10 font-semibold inline-block sm:text-lgi md800:text-7xl"
