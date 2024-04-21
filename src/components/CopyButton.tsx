@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import { FunctionComponent, useMemo, CSSProperties } from "react";
 
 export type CopyButtonType = {
   f7person3?: string;
@@ -31,29 +31,29 @@ const CopyButton: FunctionComponent<CopyButtonType> = ({
 
   return (
     <div
-      className="w-[183px] flex flex-col items-start justify-start gap-[20px] text-left text-13xl text-ghostwhite font-body-l-medium"
+      className="w-full sm:w-full flex flex-col items-center justify-center gap-8 text-left text-13xl text-ghostwhite font-body-l-medium"
       style={copyButtonStyle}
     >
-      <div className="self-stretch flex flex-row items-start justify-start py-0 pr-[41px] pl-[41.5px]">
-        <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-[100px] flex-1 flex flex-row items-start justify-start relative gap-[10px]">
-          <div className="h-full w-full absolute !m-[0] top-[0px] left-[0px] rounded-[50%] bg-primary-lilac" />
+      <div className="self-stretch flex flex-row items-start justify-start py-0 pr-8 pl-8">
+        <button className="cursor-pointer border-none p-0 bg-transparent h-24 flex-1 flex flex-row items-start justify-start relative gap-4">
+          <div className="h-full w-full absolute top-0 left-0 rounded-full bg-primary-lilac" />
           <img
-            className="h-[70px] w-[70px] absolute !m-[0] top-[calc(50%_-_35px)] left-[calc(50%_-_35px)] overflow-hidden shrink-0 z-[1]"
+            className="h-16 w-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden z-10"
             alt=""
             src={f7person3}
           />
         </button>
       </div>
-      <div className="self-stretch flex flex-col items-start justify-start">
-        <div className="flex flex-row items-start justify-start py-0 px-[30px]">
+      <div className="self-stretch flex flex-col items-start justify-center py-0 pr-4 pl-4">
+        <div className="flex flex-row items-center justify-center py-0 px-4">
           <div
-            className="relative tracking-[-0.01em] leading-[42px] font-semibold inline-block min-w-[123px] mq450:text-lgi mq450:leading-[25px] mq800:text-7xl mq800:leading-[33px]"
+            className="relative tracking-wide leading-10 font-semibold inline-block sm:text-lgi md800:text-7xl"
             style={logicLinkStyle}
           >
             {logicLink}
           </div>
         </div>
-        <div className="relative text-xl leading-[150%] font-medium mq450:text-base mq450:leading-[24px]">
+        <div className="relative text-base leading-loose font-medium">
           {happyCustomers}
         </div>
       </div>
