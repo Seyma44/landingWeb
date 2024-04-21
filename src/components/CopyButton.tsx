@@ -31,7 +31,7 @@ const CopyButton: FunctionComponent<CopyButtonType> = ({
 
   return (
     <div
-      className="w-full sm:w-full flex flex-col items-center justify-center gap-8 text-left text-13xl text-ghostwhite font-body-l-medium"
+      className="w-full sm:w-full flex flex-col items-center justify-center gap-4 text-left text-13xl text-ghostwhite font-body-l-medium"
       style={copyButtonStyle}
     >
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-8 pl-8">

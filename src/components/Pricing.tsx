@@ -12,7 +12,7 @@ const Pricing: FunctionComponent = () => {
               Pricing Plans
             </h1>
           </div>
-          <div className="relative text-xl leading-[150%] text-ghostwhite mq450:text-base mq450:leading-[24px]">
+          <div className="relative text-xl leading-[150%] text-primary-indigo-light mq450:text-base mq450:leading-[24px]">
             The Best Solution for Our Clients
           </div>
         </div>
