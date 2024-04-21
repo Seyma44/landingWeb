@@ -14,7 +14,7 @@ const FooterLink: FunctionComponent = () => {
               />
               <div className="flex flex-col items-start justify-start pt-[6.5px] px-0 pb-0">
                 <h2 className="m-0 relative text-inherit font-semibold font-inherit sm:text-lg md800:text-5xl">
-                  Nusa Tech
+                  Tusa Tech
                 </h2>
               </div>
             </div>
@@ -32,7 +32,7 @@ const FooterLink: FunctionComponent = () => {
           <div className="self-stretch flex flex-row items-start justify-start gap-[50px] max-w-full text-xl font-body-l-medium md800:gap-[25px] lg:flex-wrap">
             <div className="flex-1 flex flex-row items-start justify-start p-2.5 box-border min-w-[344px] max-w-full md800:min-w-full">
               <div className="flex-1 relative leading-[150%] font-medium inline-block max-w-full sm:text-base sm:leading-[24px]">
-                Nusa Tech is a leading digital marketing agency dedicated to
+                Tusa Tech is a leading digital marketing agency dedicated to
                 driving success for businesses online. With expertise in SEO,
                 PPC, social media, content creation, and more, we offer tailored
                 solutions to maximize ROI.

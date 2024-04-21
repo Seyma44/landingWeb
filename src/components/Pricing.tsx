@@ -23,53 +23,29 @@ const Pricing: FunctionComponent = () => {
           calculationCasement="$500"
           responsiveWebsiteDesignAn="Responsive website design and development (5 pages)"
           basicSEO="Basic SEO"
-          socialMediaManagement="Social media management  "
+          socialMediaManagement="Social media management"
+          propPadding="45px 18px"
+          propGap="9px"
+          propAlignSelf="unset"
+          propPadding1="unset"
+          propMinWidth="124px"
         />
-        <div className="flex-1 rounded-11xl bg-primary-indigo-light overflow-hidden flex flex-row items-start justify-start py-[45px] px-[18px] box-border min-w-[232px] sm:pt-[29px] sm:pb-[29px] sm:box-border">
-          <div className="flex-1 flex flex-col items-center justify-start gap-[9px]">
-            <div className="flex flex-col items-center justify-start gap-[10px]">
-              <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit whitespace-pre-wrap sm:text-lgi sm:leading-[27px]">
-                Business Plan
-              </h3>
-              <div className="relative text-21xl tracking-[-0.02em] leading-[130%] font-semibold text-primary-lilac inline-block min-w-[116px] whitespace-nowrap sm:text-5xl sm:leading-[31px] md800:text-13xl md800:leading-[42px]">
-                $1000
-              </div>
-            </div>
-            <div className="self-stretch flex flex-col items-center justify-start gap-[16px] text-base">
-              <div className="self-stretch relative leading-[150%]">
-                <ul className="m-0 font-inherit text-inherit pl-[21px]">
-                  <li className="mb-0">
-                    Responsive website design and development (10 pages)
-                  </li>
-                  <li className="mb-0">Advanced SEO</li>
-                  <li className="mb-0">Social media management</li>
-                  <li>{`PPC advertising campaign  `}</li>
-                </ul>
-              </div>
-              <Button
-                className="w-[120px] h-12"
-                disableElevation={true}
-                variant="contained"
-                sx={{
-                  textTransform: "none",
-                  color: "#f8f9ff",
-                  fontSize: "16",
-                  background: "#ac6cff",
-                  borderRadius: "20px",
-                  "&:hover": { background: "#ac6cff" },
-                  width: 120,
-                  height: 48,
-                }}
-              >
-                Book Now
-              </Button>
-            </div>
-          </div>
-        </div>
+        <ExpressionEvolver
+          starterPlan="Bussiness Plan"
+          calculationCasement="$1000"
+          responsiveWebsiteDesignAn="Advanced Business plan"
+          basicSEO="Responsive website design and development (10 pages)"
+          socialMediaManagement="PPC advertising campaign "
+          propPadding="45px 18px"
+          propGap="9px"
+          propAlignSelf="unset"
+          propPadding1="unset"
+          propMinWidth="124px"
+        /> 
         <ExpressionEvolver
           starterPlan="Premium Plan"
           calculationCasement="$2000"
-          responsiveWebsiteDesignAn="Advanced Business plan"
+          responsiveWebsiteDesignAn="Advanced Premium plan"
           basicSEO="Regular content creation"
           socialMediaManagement="Performance analysis and monthly reporting"
           propPadding="45px 18px"

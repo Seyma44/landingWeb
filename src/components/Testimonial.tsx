@@ -6,7 +6,7 @@ const testimonials = [
     name: "Sarah Johnson",
     occupation: "Owner of a Boutique Clothing Store",
     quote:
-      "“Nusa Tech delivers exceptional service! Highly responsive and effective digital marketing strategies have boosted our website traffic and conversions”.",
+      "“Tusa Tech delivers exceptional service! Highly responsive and effective digital marketing strategies have boosted our website traffic and conversions”.",
   },
   {
     name: "John Doe",

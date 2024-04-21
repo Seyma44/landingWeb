@@ -14,7 +14,7 @@ const FooterCopyRight: FunctionComponent = () => {
       <div className="self-stretch flex flex-row items-start justify-between max-w-full gap-[20px] md800:flex-wrap">
         <div className="flex flex-row items-start justify-start p-2.5 box-border max-w-full">
           <div className="relative leading-[150%] font-medium sm:text-base sm:leading-[24px]">
-            Nusa tech 2024 © All right reserved
+            Tusa tech 2024 © All right reserved
           </div>
         </div>
         <div className="flex flex-row items-start justify-start p-2.5">
