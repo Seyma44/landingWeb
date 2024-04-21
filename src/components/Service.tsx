@@ -1,72 +1,59 @@
-import { FunctionComponent } from "react";
+import React from 'react';
 
-const Service: FunctionComponent = () => {
+const Service: React.FC = () => {
   return (
-    <section className="self-stretch bg-primary-indigo-light overflow-hidden flex flex-col items-start justify-start pt-[100px] px-[71px] pb-[142px] box-border gap-[60px] max-w-full text-left text-13xl text-ghostwhite font-body-l-medium mq450:gap-[15px] mq800:gap-[30px] mq800:pt-[65px] mq800:px-[35px] mq800:pb-[92px] mq800:box-border">
-      <div className="self-stretch flex flex-row items-start justify-center py-0 pr-px pl-0 box-border max-w-full">
-        <div className="w-[821px] flex flex-col items-start justify-start gap-[20px] max-w-full">
-          <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
-            <h1 className="m-0 relative text-inherit tracking-[-0.01em] leading-[42px] font-semibold font-inherit mq450:text-lgi mq450:leading-[25px] mq800:text-7xl mq800:leading-[33px]">
-              Services
-            </h1>
-          </div>
-          <div className="relative text-xl leading-[150%] font-medium mq450:text-base mq450:leading-[24px]">
-            Strategic services drive digital success with tailored,
-            comprehensive approaches.
-          </div>
-        </div>
+    <section className="bg-primary-indigo-light overflow-hidden flex flex-col items-center justify-start pt-16 px-6 md:pt-10 md:px-4 lg:px-10 xl:px-20 2xl:px-24 pb-20 md:pb-36">
+      <div className="max-w-full text-center mb-12 md:mb-16 lg:mb-20 xl:mb-24">
+        <h1 className="text-5xl md:text-7xl font-semibold text-ghostwhite">
+          Services
+        </h1>
+        <p className="text-xl md:text-2xl font-medium leading-normal text-ghostwhite mt-4">
+          Strategic services drive digital success with tailored, comprehensive approaches.
+        </p>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-center gap-[20px] text-5xl text-background-paper mq1300:flex-wrap">
-        <div className="flex-[0.6436] rounded-xl bg-primary-lilac overflow-hidden flex flex-row items-start justify-start py-10 px-[66px] box-border min-w-[285px] max-w-[309px] min-h-[280px] mq450:pl-5 mq450:pr-5 mq450:box-border mq450:flex-1 mq1300:min-h-[auto]">
-          <div className="flex-1 flex flex-col items-center justify-start gap-[46px]">
-            <img
-              className="w-[100px] h-[100px] relative object-contain"
-              loading="lazy"
-              alt=""
-              src="/laptop-metrics@2x.png"
-            />
-            <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
-              SEO Marketing
-            </h3>
-          </div>
+      <div className="grid grid-cols-4 gap-6 sm:grid-cols-1 md:grid-cols-2 md800:grid-cols-2">
+        <div className="rounded-xl bg-primary-lilac overflow-hidden flex flex-col items-center justify-start py-10 px-8 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
+          <img
+            className="w-20 h-20 mb-6"
+            loading="lazy"
+            alt=""
+            src="/laptop-metrics@2x.png"
+          />
+          <h3 className="text-xl md:text-2xl font-semibold text-ghostwhite">
+            SEO Marketing
+          </h3>
         </div>
-        <button className="cursor-pointer [border:none] pt-[50px] px-[17px] pb-[60px] bg-primary-lilac flex-1 rounded-xl overflow-hidden flex flex-col items-start justify-start box-border min-w-[285px] max-w-[310px] min-h-[280px]">
-          <div className="self-stretch flex flex-col items-center justify-start gap-[56px] mq450:gap-[28px]">
-            <img
-              className="w-20 h-20 relative object-contain"
-              alt=""
-              src="/web-marketing@2x.png"
-            />
-            <div className="relative text-5xl leading-[34px] font-semibold font-body-l-medium text-background-paper text-left mq450:text-lgi mq450:leading-[27px]">
-              Research Topic Trends
-            </div>
-          </div>
+        <button className="rounded-xl bg-primary-lilac overflow-hidden flex flex-col items-center justify-start py-10 pb-14 px-8 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
+          <img
+            className="w-20 h-20 mb-6"
+            alt=""
+            src="/web-marketing@2x.png"
+          />
+          <p className="text-xl md:text-2xl font-semibold text-ghostwhite text-center">
+            Research Topic Trends
+          </p>
         </button>
-        <div className="flex-[0.7174] rounded-xl bg-primary-lilac overflow-hidden flex flex-col items-start justify-start pt-10 px-14 pb-[60px] box-border min-w-[285px] max-w-[310px] min-h-[280px] mq450:pl-5 mq450:pr-5 mq450:box-border mq450:flex-1">
-          <div className="self-stretch flex flex-col items-center justify-start gap-[56px]">
-            <img
-              className="w-[90px] h-[90px] relative object-contain"
-              loading="lazy"
-              alt=""
-              src="/email-open@2x.png"
-            />
-            <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
-              Email Marketing
-            </h3>
-          </div>
+        <div className="rounded-xl bg-primary-lilac overflow-hidden flex flex-col items-center justify-start py-10 pb-14 px-8 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
+          <img
+            className="w-16 h-16 mb-6"
+            loading="lazy"
+            alt=""
+            src="/email-open@2x.png"
+          />
+          <h3 className="text-xl md:text-2xl font-semibold text-ghostwhite">
+            Email Marketing
+          </h3>
         </div>
-        <div className="flex-[0.9782] rounded-xl bg-primary-lilac overflow-hidden flex flex-row items-start justify-center py-10 px-5 box-border min-w-[285px] max-w-[309px] min-h-[280px] mq450:flex-1 mq1300:min-h-[auto]">
-          <div className="flex flex-col items-center justify-start gap-[56px]">
-            <img
-              className="w-[90px] h-[90px] relative object-contain"
-              loading="lazy"
-              alt=""
-              src="/paid-search@2x.png"
-            />
-            <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
-              Google PPC
-            </h3>
-          </div>
+        <div className="rounded-xl bg-primary-lilac overflow-hidden flex flex-col items-center justify-start py-10 pb-14 px-8 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
+          <img
+            className="w-16 h-16 mb-6"
+            loading="lazy"
+            alt=""
+            src="/paid-search@2x.png"
+          />
+          <h3 className="text-xl md:text-2xl font-semibold text-ghostwhite">
+            Google PPC
+          </h3>
         </div>
       </div>
     </section>

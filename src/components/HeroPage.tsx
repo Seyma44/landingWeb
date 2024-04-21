@@ -1,4 +1,3 @@
-import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
 
 const HeroPage: React.FC = () => {
@@ -28,7 +27,7 @@ const HeroPage: React.FC = () => {
               alt=""
               src="/phstarfourfill.svg"
             />
-            <div className="h-[557px] flex-1 flex flex-row items-start justify-start relative max-w-full z-[1] sm:h-auto sm:min-h-[557]">
+            <div className="h-[557px] flex-1 flex flex-row items-start justify-start relative max-w-full z-[1] ">
               <div className="w-[751px] !m-[0] absolute top-[0px] left-[0px] flex flex-col items-start justify-start gap-[40px] max-w-full">
                 <h1 className="m-0 self-stretch relative text-inherit tracking-[-0.02em] leading-[130%] font-bold font-inherit sm:text-18xl sm:leading-[48px] md800:text-30xl md800:leading-[63px] md:text-wrap">
                   <span>Boost</span>
