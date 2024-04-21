@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 
-const FrameComponent1: FunctionComponent = () => {
+const FooterLink: FunctionComponent = () => {
   return (
     <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-px box-border max-w-full text-left text-11xl text-background-paper font-montserrat">
       <div className="flex-1 flex flex-row flex-wrap items-start justify-start gap-[6px] max-w-full">
-        <div className="flex-1 flex flex-col items-start justify-start gap-[25px] max-w-full mq1125:min-w-full">
-          <div className="w-[948px] flex flex-row items-end justify-between max-w-full gap-[20px] mq800:flex-wrap">
+        <div className="flex-1 flex flex-col items-start justify-start gap-[25px] max-w-full lg:min-w-full">
+          <div className="w-[948px] flex flex-row items-end justify-between max-w-full gap-[20px] md800:flex-wrap">
             <div className="flex flex-row items-start justify-start p-2.5 gap-[5px]">
               <img
                 className="h-[50px] w-[50px] relative object-contain"
@@ -13,32 +13,32 @@ const FrameComponent1: FunctionComponent = () => {
                 src="/atom-editor-1@2x.png"
               />
               <div className="flex flex-col items-start justify-start pt-[6.5px] px-0 pb-0">
-                <h2 className="m-0 relative text-inherit font-semibold font-inherit mq450:text-lg mq800:text-5xl">
+                <h2 className="m-0 relative text-inherit font-semibold font-inherit sm:text-lg md800:text-5xl">
                   Nusa Tech
                 </h2>
               </div>
             </div>
             <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[15px] box-border max-w-full text-5xl text-primary-lilac font-body-l-medium">
-              <div className="flex flex-row items-start justify-start gap-[60px] mq450:flex-wrap mq450:gap-[30px]">
-                <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
+              <div className="flex flex-row items-start justify-start gap-[60px] sm:flex-wrap sm:gap-[30px]">
+                <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit sm:text-lgi sm:leading-[27px]">
                   Our Services
                 </h3>
-                <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
+                <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit sm:text-lgi sm:leading-[27px]">
                   Explore More
                 </h3>
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start gap-[50px] max-w-full text-xl font-body-l-medium mq800:gap-[25px] mq1125:flex-wrap">
-            <div className="flex-1 flex flex-row items-start justify-start p-2.5 box-border min-w-[344px] max-w-full mq800:min-w-full">
-              <div className="flex-1 relative leading-[150%] font-medium inline-block max-w-full mq450:text-base mq450:leading-[24px]">
+          <div className="self-stretch flex flex-row items-start justify-start gap-[50px] max-w-full text-xl font-body-l-medium md800:gap-[25px] lg:flex-wrap">
+            <div className="flex-1 flex flex-row items-start justify-start p-2.5 box-border min-w-[344px] max-w-full md800:min-w-full">
+              <div className="flex-1 relative leading-[150%] font-medium inline-block max-w-full sm:text-base sm:leading-[24px]">
                 Nusa Tech is a leading digital marketing agency dedicated to
                 driving success for businesses online. With expertise in SEO,
                 PPC, social media, content creation, and more, we offer tailored
                 solutions to maximize ROI.
               </div>
             </div>
-            <div className="w-[423px] flex flex-row items-start justify-start gap-[3px] min-w-[423px] max-w-full text-base mq450:flex-wrap mq800:min-w-full mq1125:flex-1">
+            <div className="w-[423px] flex flex-row items-start justify-start gap-[3px] min-w-[423px] max-w-full text-base sm:flex-wrap md800:min-w-full lg:flex-1">
               <div className="flex-1 relative leading-[150%] font-semibold inline-block min-w-[136px]">
                 <p className="m-0">SEO Marketing</p>
                 <p className="m-0">&nbsp;</p>
@@ -63,8 +63,8 @@ const FrameComponent1: FunctionComponent = () => {
           </div>
         </div>
         <div className="w-[300px] flex flex-col items-start justify-start pt-[21px] px-0 pb-0 box-border text-5xl text-primary-lilac font-body-l-medium">
-          <div className="self-stretch flex flex-col items-start justify-start gap-[40px] mq450:gap-[20px]">
-            <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit mq450:text-lgi mq450:leading-[27px]">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[40px] sm:gap-[20px]">
+            <h3 className="m-0 relative text-inherit leading-[34px] font-semibold font-inherit sm:text-lgi sm:leading-[27px]">
               Contact Us
             </h3>
             <div className="self-stretch flex flex-col items-start justify-start gap-[10px] text-base text-ghostwhite">
@@ -118,4 +118,4 @@ const FrameComponent1: FunctionComponent = () => {
   );
 };
 
-export default FrameComponent1;
+export default FooterLink;
